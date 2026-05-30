@@ -16,7 +16,7 @@ services:
   django_app:
     build:
       context: .
-    image: dhvishwakarma03/notes-app:latest
+    image: django-notes
     container_name: "django_cont"
     ports:
       - "5000:8000"
